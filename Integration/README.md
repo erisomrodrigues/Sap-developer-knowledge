@@ -1,4 +1,4 @@
-# 🧩 ABAP Integration
+# 🧩 SAP Integration
 
 Esta pasta contém pequenos exemplos de código para consulta rápida sobre
 recursos, comandos, expressões e boas práticas utilizadas no desenvolvimento ABAP.
