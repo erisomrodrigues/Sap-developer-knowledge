@@ -16,7 +16,7 @@ Cada snippet apresenta:
 
 | Recurso | Descrição | Material | Fonte 
 |---|---|---|---|
-| `BgRFC` | Programa de exemplo do cenário bgRFC BgRFC_ZFM_BGTASK_ERI. Ele chama o módulo de função remoto ZFM_REMOTO via IN BACKGROUND UNIT e grava o log de processamento na SLG1. | [Acessar](./Code/ZPRG_INSERT_ENCADEADO.ABAP) | [Fonte](https://www.youtube.com/watch?v=QBryftZsX_M&t=600s) |
+| `BgRFC` | Programa com módulo de função remoto _ZFM_BGTASK_ERI_ via _IN BACKGROUND UNIT_ com gravação de log na SLG1. | [Acessar](./Code/ZPRG_INSERT_ENCADEADO.ABAP) | [Acessar](https://www.youtube.com/watch?v=QBryftZsX_M&t=600s) |
 
 ---
 
