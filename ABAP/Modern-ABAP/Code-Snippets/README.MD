@@ -5,14 +5,10 @@ recursos, comandos, expressões e boas práticas utilizadas no desenvolvimento A
 
 Cada snippet apresenta:
 
-- O que é o recurso.
-- Para que serve.
-- Quando utilizar.
+- Principal Comando.
+- Descrição
 - Sintaxe básica.
-- Exemplo funcional.
-- Comparação entre ABAP clássico e moderno, quando aplicável.
-- Pontos de atenção.
-- Fonte do estudo.
+- Caminho
 
 ---
 
