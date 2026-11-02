@@ -35,7 +35,7 @@ de expressões ABAP.
 
 | Recurso | Descrição | Material |
 |---|---|---|
-| `VALUE #( )` | Criação de estruturas e tabelas internas | [Acessar snippet](./constructor-expressions/value/README.md) |
+| `INSERT: VALUE #()` | Criação de estruturas e tabelas internas | [Acessar snippet](./Code/ZPRG_INSERT_ENCADEADO.ABAP) |
 | `NEW #( )` | Criação de referências e instâncias | [Acessar snippet](./constructor-expressions/new/README.md) |
 | `CORRESPONDING #( )` | Transferência de campos entre estruturas e tabelas | [Acessar snippet](./constructor-expressions/corresponding/README.md) |
 | `CONV #( )` | Conversão explícita de valores | [Acessar snippet](./constructor-expressions/conv/README.md) |
