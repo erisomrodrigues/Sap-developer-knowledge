@@ -1,14 +1,6 @@
 # 🧩 SAP Integration
 
-Esta pasta contém pequenos exemplos de código para consulta rápida sobre
-recursos, comandos, expressões e boas práticas utilizadas no desenvolvimento ABAP.
-
-Cada snippet apresenta:
-
-- Principal Comando.
-- Descrição
-- Sintaxe básica.
-- Caminho
+Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP de integrações.
 
 ---
 
