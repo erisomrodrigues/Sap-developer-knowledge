@@ -16,7 +16,7 @@ Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP 
 |  | Uso do comando [TO UPPER e do UPPER](./Code/ZPROG_SELECT_UPPER_ERI.ABAP) para tornas tonar conteúdo em caixa alta, e o uso em SQL após a clausula WHERE | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Usando o [_CLEAR_](./Code/zprg_structure_with_clear_eri.abap) com _WITH_ para escolher quais campos **NÃO** limpar de uma estrutura | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Usando o [ASSIGN](./Code/ZPRG_ASSIGN_PILHA_ABAP.ABAP) para recuperar valores pela pilha ABAP que não existem localmente ou globalmente | [Acessar](N/A) | [Acessar](N/A) | 
-|  | usando o comando [STEP](./Code/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) -1 para realizar um _`LOOP`_ inverso | [Acessar](N/A) | [Acessar](N/A) | 
+| `LOOP AT .. STEP` | Usando o comando _`STEP`_ -1 para realizar um _`LOOP`_ inverso | [Acessar](./Code/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) | [N/A]() | 
 | `WRITE` e `SY-VLINE` | Gerar LOG em forma de tabela com bordas identificando colunas por numeração | [Acessar](./Code/ZPRG_WRITE_WITH_NUMEBERS_ERI.ABAP) | [Acessar](https://youtu.be/gRfDvdTTfco?si=wYdnuhT7gRjZNTRI) | 
 | `CASTING`| Usando o comando CASTING para tornar o FIELD-SYMBOL do LOOP AT compartivel com o tipo de dados sendo processados| [Acessar](./Code/ZPRG_CASTING_IN_LOOP.ABAP) | [N/A]() |
 | ``| | |
