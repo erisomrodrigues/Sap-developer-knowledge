@@ -9,7 +9,6 @@ Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP 
 | Recurso | Descrição | Material | Fonte 
 |---|---|---|---|
 | `Search Help Exit` | Desenvolvimento de Search help Exit ABAP clássico no ECC  | [Acessar](./DDI/Search_help/ZFSZK_SH_ERI.ABAP) | [Acessar](N/A) |
-
 |  | Usando [CASE dentro do SELECT](./Code/ZPROG_SELECT_WITH_CASE_ERI.ABAP) para modificar campos na tabela interna | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Formatação de texto para LOG [New Syntax WRITER](./Code/ZPROG_NEW_SYNTAX_TEXT_LOG_ERI.ABAP) baixando arquivo TXT com module funcção GUI_DOWNLOAD | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Realizando um [LOOP AT reverso](./Code/ZPROG_LOOP_REVERSE_STEP_ERI.ABAP) com a instrução STEP e o comando COLOR para mudar sobra de textos | [Acessar](N/A) | [Acessar](N/A) | 
