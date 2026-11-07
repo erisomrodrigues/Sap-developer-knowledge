@@ -8,7 +8,7 @@ Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP 
 
 | Recurso | Descrição | Material | Fonte 
 |---|---|---|---|
-| `Search Help Exit` | Desenvolvimento de Search help Exit ABAP clássico no ECC  | [Acessar](./DDI/Search_help/ZFSZK_SH_ERI.ABAP) | [Acessar](N/A) |
+| `Search Help Exit` | Desenvolvimento de Search help Exit ABAP clássico no ECC  | [Acessar](./DDI/Search_help) | [Acessar](N/A) |
 
 ---
 
