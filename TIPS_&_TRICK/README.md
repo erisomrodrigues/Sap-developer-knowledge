@@ -21,6 +21,6 @@ Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP 
 6. Uso do comando [TO UPPER e do UPPER](./CODE/ZPROG_SELECT_UPPER_ERI.ABAP) para tornas tonar conteúdo em caixa alta, e o uso em SQL após a clausula WHERE.
 7. Usando o [_CLEAR_](./CODE/zprg_structure_with_clear_eri.abap) com _WITH_ para escolher quais campos **NÃO** limpar de uma estrutura.
 8. Usando o [ASSIGN](./CODE/ZPRG_ASSIGN_PILHA_ABAP.ABAP) para recuperar valores pela pilha ABAP que não existem localmente ou globalmente.
-9. usando o comando [STEP](./CODE/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) -1 para realizar um _`LOOP`_ inverso.  
+9. usando o comando [STEP](./Code/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) -1 para realizar um _`LOOP`_ inverso.  
 
 
