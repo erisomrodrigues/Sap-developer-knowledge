@@ -1,0 +1,31 @@
+*----------------------------------------------------------------------*
+***INCLUDE LZJI_TABLE2_ERIF01.
+*----------------------------------------------------------------------*
+FORM CREATE_DATA.
+
+  ZJI_TABLE2_ERI-CREATED = sy-UNAME.
+  ZJI_TABLE2_ERI-CREATEDON = sy-DATUM.
+
+ENDFORM.
+
+
+FORM CHANGE_DATA.
+
+  TYPES: BEGIN OF TYP_DATA.
+          INCLUDE STRUCTURE ZJI_TABLE2_ERI.
+          INCLUDE STRUCTURE VIMTBFLAGS.
+  TYPES: END OF TYP_DATA.
+
+  FIELD-SYMBOLS: <FS_DATA> TYPE TYP_DATA.
+
+  BREAK-POINT.
+
+  LOOP AT TOTAL ASSIGNING <FS_DATA> CASTING.
+    IF <FS_DATA>-VIM_ACTION = 'U'.
+      <FS_DATA>-CHANGEDBY = SY-UNAME.
+      <FS_DATA>-CHANGEDON = SY-DATUM.
+    ENDIF.
+
+  ENDLOOP.
+
+ENDFORM.
