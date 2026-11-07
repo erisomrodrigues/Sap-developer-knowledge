@@ -40,6 +40,7 @@
 6. Uso do comando [TO UPPER e do UPPER](/TIPS_&_TRICK/ZPROG_SELECT_UPPER_ERI.ABAP) para tornas tonar conteúdo em caixa alta, e o uso em SQL após a clausula WHERE.
 7. Usando o [_CLEAR_](TIPS_&_TRICK/zprg_structure_with_clear_eri.abap) com _WITH_ para escolher quais campos **NÃO** limpar de uma estrutura.
 8. Usando o [ASSIGN](TIPS_&_TRICK/ZPRG_ASSIGN_PILHA_ABAP.ABAP) para recuperar valores pela pilha ABAP que não existem localmente ou globalmente.
+9. usando o comando [STEP](TIPS_&_TRICK/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) -1 para realizar um LOOP inverso.  
 
 ## Core ABAP Skills
 1. Usando as instruções LOOP,DO e CASE para criar algoritmo de [FIBONACCI](/ABAP-SKILL/Z_FIBONACCI_ERI.ABAP).
