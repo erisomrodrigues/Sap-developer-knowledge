@@ -14,7 +14,7 @@ Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP 
 |  | Formatação de textos com [TO_UPPER CASE, TO_LOWER CASE e TRANSLATE](./Code/ZPROG_TRANSLATE_UPPER_LOWER.ABAP) | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Expressões incorporadas em modelo de string [SY-DATUM, SY-UZEIT, CURRENCY, WIDTH e ALPHA](./Code/ZPROG_STRING_EMBEDDED_ERI.ABAP)  ABAP moderno | [Acessar](N/A) | [Acessar](N/A) | 
 |  | Uso do comando [TO UPPER e do UPPER](./Code/ZPROG_SELECT_UPPER_ERI.ABAP) para tornas tonar conteúdo em caixa alta, e o uso em SQL após a clausula WHERE | [Acessar](N/A) | [Acessar](N/A) | 
-|  | Usando o [_CLEAR_](./Code/zprg_structure_with_clear_eri.abap) com _WITH_ para escolher quais campos **NÃO** limpar de uma estrutura | [Acessar](N/A) | [Acessar](N/A) | 
+| `CLEAR: .. WITH` | Usando o comando _`CLEAR`_ com _`WITH`_ para escolher quais campos não limpar da estrutura | [Acessar](./Code/zprg_structure_with_clear_eri.abap) | [N/A]() | 
 | `ASSIGN` | Usando o _`ASSIGN`_  para recuperar valores da pilha ABAP no debugger | [Acessar](./Code/ZPRG_ASSIGN_PILHA_ABAP.ABAP) | [N/A]() | 
 | `LOOP AT .. STEP` | Usando o comando _`STEP`_ -1 para realizar um _`LOOP`_ inverso | [Acessar](./Code/ZLOOP_BACKWARD_DIRECTION_ERI.ABAP) | [N/A]() | 
 | `WRITE` e `SY-VLINE` | Gerar log em forma de tabela com bordas identificando cabeçalho das colunas por numeração | [Acessar](./Code/ZPRG_WRITE_WITH_NUMEBERS_ERI.ABAP) | [Acessar](https://youtu.be/gRfDvdTTfco?si=wYdnuhT7gRjZNTRI) | 
