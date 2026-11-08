@@ -1,0 +1,44 @@
+*&---------------------------------------------------------------------*
+*& Report zprg_selects_with_range_eri
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZPRG_SELECTS_WITH_RANGE_ERI.
+
+DATA: LV_MATNR TYPE MATNR.
+
+SELECTION-SCREEN BEGIN OF BLOCK B1 WITH FRAME TITLE TEXT-001.
+  SELECT-OPTIONS S_MATNR FOR LV_MATNR.
+SELECTION-SCREEN END OF BLOCK B1 .
+
+DATA: LR_MATNR  TYPE RANGE OF MATNR,
+      LT_MATNR2 TYPE RANGE OF MATNR,
+      LS_MATNR  LIKE LINE OF LR_MATNR.
+
+LS_MATNR-SIGN = 'I'.
+LS_MATNR-OPTION = 'CP'.
+LS_MATNR-LOW = '2355'.
+APPEND LS_MATNR TO LR_MATNR.
+
+SELECT 'I'     AS SIGN,
+       'EQ'    AS OPTION,
+        MATNR  AS LOW,
+       ' '     AS HIGH
+  FROM MARA
+  INTO TABLE @LT_MATNR2
+    UP TO 10 ROWS
+ WHERE ( MATNR IN @S_MATNR AND MATNR IN @LR_MATNR ).
+IF SY-SUBRC IS INITIAL.
+  CL_DEMO_OUTPUT=>WRITE(  LT_MATNR2 ).
+ENDIF.
+
+SELECT VBELN,
+       POSNR,
+       MATNR
+  FROM VBAP
+  INTO TABLE @DATA(LT_TAB)
+ UP TO 10 ROWS
+ WHERE MATNR IN @LT_MATNR2.
+IF SY-SUBRC IS INITIAL.
+  CL_DEMO_OUTPUT=>DISPLAY( LT_TAB ).
+ENDIF.
