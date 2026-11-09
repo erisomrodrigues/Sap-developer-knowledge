@@ -16,7 +16,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`CONCAR, CONCAT_WITH_SPACE, LENGHT,INSTR, LEFT, RIGHT, LPAD, RPAD, LTRIM, RTRIM, REPLACE, LOWER, UPPER e SUBSTRING` | Usando operações com strings pelo _`SELECT`_| [Acessar](./Code/ZPRG_SELECT_STRING_OPERATION.ABAP) | [N/A]() |
 | _`CASE`_| Usando a instrução CASE (Simples e de Pesquisa) dentro do _`SELECT`_ para alterar valores de acordo com a condicional | [Acessar](./Code/ZPRG_SELECT_CASE_SIMPLES_ERI.ABAP) | [Acessar](https://www.youtube.com/watch?v=FJLEQFIQ2zc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
 |_`LEFT OUTER JOIN e COALESCE`_| Uso do _`LEFT OUTER JOIN`_ para trazer dados dos pedidos e as respectivas faturas, e com _`CASE`_ como condicional dentro do _`SELECT`_ |[Acessar](./Code/ZPRG_SELECT_WITH_LEFT_OUT_JOIN.ABAP)|[Acessar](https://www.youtube.com/watch?v=poZVVwWSCsc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
-|_`HOST EXPRESSION`_| Usando uma expressão de tabela para passar valor como filtro através da clausula WHERE do SELECT |[Acesso](./Code/ZPRG_HOST_EXPRE_WHERE_ERI.ABAP)|[Acesso](https://www.youtube.com/watch?v=i0PXo6fpLFo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=18)|
+|_`HOST EXPRESSION`_| Usando uma expressão de tabela para passar valor como filtro através da clausula _`WHERE`_ do _`SELECT`_ |[Acesso](./Code/ZPRG_HOST_EXPRE_WHERE_ERI.ABAP)|[Acesso](https://www.youtube.com/watch?v=i0PXo6fpLFo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=18)|
 ---
 
 
