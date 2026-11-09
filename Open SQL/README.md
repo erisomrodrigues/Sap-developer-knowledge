@@ -15,7 +15,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`CEIL, FLOOR, ABS, ROUND, DIV, CAST e MOD`| Usando as funções aritméticas na instrução _`SELECT`_ |[Acessar](./Code/ZPRG_SELECT_ARITHMETIC_EXPRESS.ABAP) | [Acessar](https://www.youtube.com/watch?v=acXVko_ChGg&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=12) |`_SUM`_, _`AVG`_, _`MAX`_, _`MIN`_, _`COUNT`_| Utilizando os operadores de agregação dentro do _`SELECT`_ | [Acessar](./Code/ZPRG_SELECT_AGGREGATION_EXPRES.ABAP) | [N/A]() |
 |`CONCAR, CONCAT_WITH_SPACE, LENGHT,INSTR, LEFT, RIGHT, LPAD, RPAD, LTRIM, RTRIM, REPLACE, LOWER, UPPER e SUBSTRING` | Usando operações com strings pelo _`SELECT`_| [Acessar](./Code/ZPRG_SELECT_STRING_OPERATION.ABAP) | [N/A]() |
 | _`CASE`_| Usando a instrução CASE (Simples e de Pesquisa) dentro do _`SELECT`_ para alterar valores de acordo com a condicional | [Acessar](./Code/ZPRG_SELECT_CASE_SIMPLES_ERI.ABAP) | [Acessar](https://www.youtube.com/watch?v=FJLEQFIQ2zc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
-|_`LEFT OUTER JOIN`_| Uso do LEFT OUTER JOIN para trazer dados dos pedidos e as duas respectivas faturas, e com CASE como condicional dentro do _`SELECT`_ |[Acessar](./Code/ZPRG_SELECT_WITH_LEFT_OUT_JOIN.ABAP)|[Acessar](https://www.youtube.com/watch?v=poZVVwWSCsc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
+|_`LEFT OUTER JOIN`_| Uso do _`LEFT OUTER JOIN`_ para trazer dados dos pedidos e as respectivas faturas, e com CASE como condicional dentro do _`SELECT`_ |[Acessar](./Code/ZPRG_SELECT_WITH_LEFT_OUT_JOIN.ABAP)|[Acessar](https://www.youtube.com/watch?v=poZVVwWSCsc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
 ---
 
 
