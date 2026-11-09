@@ -2,6 +2,8 @@
 
 Esta pasta contém exemplos de código ABAP e apresentação de ferramentas SAP de modelagem.
 
+As instruções presentes nos selects são tratadas diretamente na camada de banco de dado (Code PushDown)
+
 ---
 
 ## 📚 Lista
