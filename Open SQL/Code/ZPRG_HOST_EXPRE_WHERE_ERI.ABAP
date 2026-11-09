@@ -1,0 +1,49 @@
+*&---------------------------------------------------------------------*
+*& Report zprg_host_expre_where_eri
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZPRG_HOST_EXPRE_WHERE_ERI.
+
+CLASS DEMO DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS CLASS_CONSTRUCTOR.
+    CLASS-METHODS MAIN.
+
+  PRIVATE SECTION.
+    CLASS-DATA: IT_SCARR TYPE STANDARD TABLE OF SCARR.
+
+ENDCLASS.
+
+CLASS DEMO IMPLEMENTATION.
+
+  METHOD CLASS_CONSTRUCTOR.
+    SELECT *
+      FROM SCARR
+      INTO TABLE @IT_SCARR.
+
+  ENDMETHOD.
+
+  METHOD MAIN.
+    DATA: LV_CARRNAME TYPE SCARR-CARRNAME VALUE 'NEW YORK'.
+    CL_DEMO_INPUT=>REQUEST(
+      CHANGING
+        FIELD = LV_CARRNAME ).
+
+    SELECT
+      FROM SPFLI
+    FIELDS CARRID,
+           CITYFROM,
+           CITYTO
+     WHERE CARRID = @( VALUE SPFLI-CARRID( IT_SCARR[ CARRNAME = LV_CARRNAME ]-CARRID OPTIONAL ) )
+      INTO TABLE @DATA(IT_RESULT).
+
+    IF SY-SUBRC IS INITIAL.
+      CL_DEMO_OUTPUT=>DISPLAY( IT_RESULT ).
+    ENDIF.
+
+  ENDMETHOD.
+ENDCLASS.
+
+START-OF-SELECTION.
+  DEMO=>MAIN( ).
