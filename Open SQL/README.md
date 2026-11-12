@@ -18,7 +18,8 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |_`LEFT OUTER JOIN e COALESCE`_| Uso do _`LEFT OUTER JOIN`_ para trazer dados dos pedidos e as respectivas faturas, e com _`CASE`_ como condicional dentro do _`SELECT`_ |[Acessar](./Code/ZPRG_SELECT_WITH_LEFT_OUT_JOIN.ABAP)|[Acessar](https://www.youtube.com/watch?v=poZVVwWSCsc&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=16) |
 |_`HOST EXPRESSION`_| Usando uma expressão de tabela para passar valor como filtro através da clausula _`WHERE`_ do _`SELECT`_ |[Acesso](./Code/ZPRG_HOST_EXPRE_WHERE_ERI.ABAP)|[Acesso](https://www.youtube.com/watch?v=i0PXo6fpLFo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=18)|
 |`CLIENTE ESPECIFIED e USING CLIENT`| Buscando dados em MANDT diferentes  com a instrução _`SELECT`_ |[Acessar](./Code/ZPRG_USING_CLIENT_SPECIFIED.ABAP)|[Acessar](https://www.youtube.com/watch?v=lo2Uq3Pam5s&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=18)|
-|`CROSS JOIN`| Utilizando o _`CROSS JOIN`_ para trazer dados de todas as tabelas independentes da correção entre as tabelas |[Acessar]()|[Acessar]()|
+|`CROSS JOIN`| Utilizando o _`CROSS JOIN`_ para trazer dados de todas as tabelas independentes da correção entre as tabelas |[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=jjGD4xIRg5s&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=21)|
+|||
 ---
 
 
