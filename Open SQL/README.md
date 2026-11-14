@@ -20,6 +20,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`CLIENTE ESPECIFIED e USING CLIENT`| Buscando dados em MANDT diferentes  com a instrução _`SELECT`_ |[Acessar](./Code/ZPRG_USING_CLIENT_SPECIFIED.ABAP)|[Acessar](https://www.youtube.com/watch?v=lo2Uq3Pam5s&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=18)|
 |`CROSS JOIN`| Utilizando o _`CROSS JOIN`_ para trazer dados de todas as tabelas independentes da correção entre as tabelas |[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=jjGD4xIRg5s&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=21)|
 |`INCLUDE TYPE`| Declaração de tipo de dados com inclusão de todos os campos da tabela, sem criar estrutura dentro de tabela|[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[N/A]()|
+|`HAVING e GROUP BY`| Utilizando o _`HAVING`_ e _`GROUP BY`_ para filtrar valores ordenados|[Acessar](./ZPRG_HAVING_UNION_SELECT_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=wlXxgBdsHW8&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=22)|
 ---
 
 
