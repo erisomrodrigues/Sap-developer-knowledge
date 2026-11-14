@@ -21,7 +21,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`CROSS JOIN`| Utilizando o _`CROSS JOIN`_ para trazer dados de todas as tabelas independentes da correção entre as tabelas |[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=jjGD4xIRg5s&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=21)|
 |`INCLUDE TYPE`| Declaração de tipo de dados com inclusão de todos os campos da tabela, sem criar estrutura dentro de tabela|[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[N/A]()|
 |`HAVING e GROUP BY`| Utilizando o _`HAVING`_ e _`GROUP BY`_ para filtrar valores ordenados|[Acessar](./ZPRG_HAVING_UNION_SELECT_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=wlXxgBdsHW8&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=22)|
-|`UNION`|Utilizando o comando _`UNION`_ para unir o resultado de dois _`SELECT`_ contando que possuam os mesmo campos|[Acessa](./ZPRG_UNIO_SELECT_ERI.ABAP)|[N/A]()|
+|`UNION`|Utilizando o comando _`UNION`_ para unir o resultado de dois _`SELECT`_ contando que possuam os mesmo campos|[Acessar](./ZPRG_UNIO_SELECT_ERI.ABAP)|[N/A]()|
 ---
 
 
