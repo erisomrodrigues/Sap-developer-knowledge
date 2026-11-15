@@ -10,7 +10,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 
 | Recurso | Descrição | Material | Fonte 
 |---|---|---|---|
-| `FIELD` | Comparação do antigo _`SELECT`_ com o _`SELECT`_ com _`FIELD`_ no S/4HANA  | [Acessar](./Code/zprg_opensql_syntax_00_eri.ABAP) | [Acessar](https://youtu.be/sKhpbrhO2HE?si=249cqgvGwU9k-C8g) |
+| `INSERT: VALUE#()` | Inserindo varias linhas(Encadeados) em _`RANGES`_ com **ABAP INLINE** com o comando _`INSERT`_  | [Acessar](./Code/ZPRG_INSERT_ENCADEADO.ABAP) | [N/A]() |
 
 ---
 
