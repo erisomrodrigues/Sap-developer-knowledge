@@ -22,6 +22,9 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`INCLUDE TYPE`| Declaração de tipo de dados com inclusão de todos os campos da tabela, sem criar estrutura dentro de tabela|[Acessar](./Code/ZPRG_USING_CROSS_JOIN_ERI.ABAP)|[N/A]()|
 |`HAVING e GROUP BY`| Utilizando o _`HAVING`_ e _`GROUP BY`_ para filtrar valores ordenados|[Acessar](./ZPRG_HAVING_UNION_SELECT_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=wlXxgBdsHW8&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=22)|
 |`UNION`|Utilizando o comando _`UNION`_ para unir o resultado de dois _`SELECT`_ contando que possuam os mesmo campos|[Acessar](./ZPRG_UNIO_SELECT_ERI.ABAP)|[N/A]()|
+|`OVER e ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`|Agrupando registro por filtro utilizando _`OVER`_ e _`ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW´_|[Acessar](./ZPRG_WINDOW_EXPRESSION_OVER.ABAP)|[Acessar](https://www.youtube.com/watch?v=PTITP-5LLLo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=25)|
+|`OVER e ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING`|Agrupando registro por filtro utilizando _`OVER`_ e _`ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING´_|[Acessar](./ZPRG_WINDOW_EXPRESSION_OVER.ABAP)|[Acessar](https://www.youtube.com/watch?v=PTITP-5LLLo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=25)|
+|`OVER e ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING`|Agrupando registro por filtro utilizando _`OVER`_ e _`ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING´_|[Acessar](./ZPRG_WINDOW_EXPRESSION_OVER.ABAP)|[Acessar](https://www.youtube.com/watch?v=PTITP-5LLLo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=25)|
 ---
 
 
