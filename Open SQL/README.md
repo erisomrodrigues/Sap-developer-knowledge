@@ -26,7 +26,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 |`OVER e ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING`|Agrupando registro por filtro utilizando _`OVER`_ e _`ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING`_|[Acessar](./ZPRG_WINDOW_EXPRESSION_OVER.ABAP)|[Acessar](https://www.youtube.com/watch?v=PTITP-5LLLo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=25)|
 |`OVER e ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING`|Agrupando registro por filtro utilizando _`OVER`_ e _`ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING`_|[Acessar](./ZPRG_WINDOW_EXPRESSION_OVER.ABAP)|[Acessar](https://www.youtube.com/watch?v=PTITP-5LLLo&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=25)|
 |`CTE e WITH +`|Utilizando _`WITH`_ para criar subsomatorios diretamente no _`SELECT`_ com recuros de  _`CTE`_|[Acessar](./ZPRG_CTE_WITH_ERI.ABAP)|[Acessar](https://www.youtube.com/watch?v=eQ3DPQUw9pQ&list=PLqz8SLrkjv2iNxQCtKdbzWa-E1e2m2XBX&index=24)|
-|`CTE e WITH +`|Criando mais de uma subquery com `WITH` no _`CTE`_ usando classes|[Acessar](Open SQL/Code/ZPRG_CTE_WITH_CLASS_ERI.ABAP)|[N/A]()|
+|`CTE e WITH +`|Criando mais de uma subquery com `WITH` no _`CTE`_ usando classes|[Acessar](./ZPRG_CTE_WITH_CLASS_ERI.ABAP)|[N/A]()|
 ---
 
 
