@@ -6,7 +6,7 @@ As instruções presentes nos selects são tratadas diretamente na camada de ban
 
 ---
 
-## 📚 TIPS_&_TRICK
+## 📚 TIPS & TRICK
 
 | Recurso | Descrição | Material | Fonte 
 |---|---|---|---|
