@@ -1,0 +1,32 @@
+*&---------------------------------------------------------------------*
+*& Report zprg_corresponding_from_eri
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZPRG_CORRESPONDING_FROM_ERI.
+
+TYPES:
+  BEGIN OF TS_DATA,
+    ID    TYPE I,
+    NAME  TYPE STRING,
+    VALUE TYPE STRING,
+  END OF TS_DATA,
+
+  BEGIN OF TS_LOOUP,
+    ID    TYPE I,
+    VALUE TYPE STRING,
+  END OF TS_LOOUP.
+
+DATA:
+  LT_TARGET_DATA  TYPE STANDARD TABLE OF TS_DATA,
+  LT_LOOKUP_TABLE TYPE SORTED TABLE OF TS_LOOUP WITH NON-UNIQUE KEY PRIMARY_KEY COMPONENTS ID.
+
+INSERT: VALUE #( ID = 1 NAME = 'ITEM A' VALUE = 'OLD VALUE 1' ) INTO TABLE LT_TARGET_DATA,
+        VALUE #( ID = 2 NAME = 'ITEM B' VALUE = 'OLD VALUE 2' ) INTO TABLE LT_TARGET_DATA,
+        VALUE #( ID = 3 NAME = 'ITEM C' VALUE = 'OLD VALUE 3' ) INTO TABLE LT_TARGET_DATA,
+        VALUE #( ID = 1 VALUE = 'OLD VALUE X' ) INTO TABLE LT_LOOKUP_TABLE,
+        VALUE #( ID = 2 VALUE = 'OLD VALUE Z' ) INTO TABLE LT_LOOKUP_TABLE.
+
+LT_TARGET_DATA = CORRESPONDING #( LT_TARGET_DATA FROM LT_LOOKUP_TABLE USING KEY PRIMARY_KEY ID = ID ).
+
+CL_DEMO_OUTPUT=>DISPLAY(  LT_TARGET_DATA ).
